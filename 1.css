@@ -1,0 +1,30 @@
+body{
+    background-color: white;
+    color: blacks;
+}
+
+.mydark{
+    background-color: black;
+    color: white;
+}
+
+
+.coupon{
+   
+    width:760px;
+    height:450px;
+    background-color:#2874f0;
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 25%;
+    z-index: 100;
+    background-image: url('coupon1.png');
+}
+.btn{width: 5rem;
+    text-transform: capitalize;
+    border-radius: 0.7rem;
+    border:1px solid black
+}
+.btn i{
+    color: orange;
+}

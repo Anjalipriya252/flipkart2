@@ -1,0 +1,110 @@
+
+.sf{
+    padding-bottom: 4px;
+}
+.sf .row{
+    margin-bottom: 50px;
+}
+
+.sf > .row > div{
+    padding-bottom: 20px;
+}
+.sf_section{
+    margin-left:5px;
+    padding-left: 5px;
+}
+.sf_section1{
+    margin-bottom: 10px;
+ 
+}
+.sf_section2{
+    min-height:67px;
+}
+.sf_section1_top{
+    border-bottom:1px solid  #f0f0f0;
+    margin: 20px;
+    padding: 17px;
+}
+.sf_section1_center{
+
+    border-bottom:1px solid  #f0f0f0;
+    padding:10px;
+}
+.sf_section1_center > .row > div{
+    height:400px;
+  
+    padding:;
+}
+.sf_section1_center a{
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    
+}
+.sf_section1_center a:hover{
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.1);
+
+}
+.product>.top{
+    height:270px;
+    position: relative
+}
+.product>.top i{
+    color:#ccc ;
+    font-size:1rem;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.product>.top i:hover{
+    color:red;
+}
+.product>.bottom{
+
+    text-decoration: none;
+}
+
+
+
+.bottom .button_content{
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 12px;
+    vertical-align: middle;
+    color: white;
+    background-color: #388e3c;
+    border: none;
+    padding: 2px 4px 2px 6px;
+}
+span{
+    text-decoration: none;
+}
+.sf_section2_content{
+    display: block;
+    font-family: Roboto,Arial,sans-serif;
+    background-color: #fff;
+    font-size: 14px;
+    padding: 16px;
+}
+.sf_section2_content_1{
+font-weight: 500;
+    font-size: 16px;
+}
+.sf_section2_content_2{
+display: inline-block;
+    margin-left: 24px;
+    font-size: 16px;
+    background-color: whiet;
+}
+.sf_section2_content_2 a button{
+    width:80px;
+    border: 0.5px solid grey;
+}
+
+/*aside*/
+.sf aside{
+    margin-left: 0px;
+    padding-left: 17px;
+}
+
+/*page 3 css*/

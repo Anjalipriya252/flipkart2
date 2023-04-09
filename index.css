@@ -1,0 +1,308 @@
+body{
+    background-color: #f1f3f6;
+    color: blacks;
+    width: 100%;
+    height: 100;
+}
+
+div.a_cont{
+    width: 99%;
+   /* height: 2520px;*/
+   padding: 0px;
+}
+.nav .cards img:hover{
+    transform: scale(1.2);  
+    cursor: pointer;
+}
+.nav1{display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#2874f0;
+
+}
+.plus_color{
+    color:yellow;
+    font-weight: 600;
+    font-style: italic;
+}
+.span{
+    font-style: italic;
+}
+.logo{
+padding: 0px 22px;
+}
+.header_top
+{height: 56px;
+    background-color: #2874f0;
+
+}
+
+.searchbar{
+    background-color: white;
+    width: 500px;
+    margin: 5px;
+    margin-bottom:10px;
+    padding:8px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: #2874f0;
+    box-shadow: -7px -7px 10px rgba(0,0,0,0.1);
+    border-radius: 2px;
+    border: none;
+   
+}
+.searchbar input{
+    width: 400px;
+    border: none;
+    padding-left: 20px;
+    outline: none;
+}
+
+.loginbtn{
+    outline: none;
+    padding: 7px 40px;
+    font-size: 16px;
+    font-weight: 550;
+    border:none;
+    border-radius: 2px;
+}
+
+.alink{
+    color: white;
+    margin: 0px 20px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+.nav{height: 112px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.nav a{
+    color: black;
+}
+.card{display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    width: 94px;
+    height: 112px;
+}
+
+
+
+.mydark{
+    background-color: black;
+    color: white;
+}
+.mode{
+    border-radius: 5rem;
+   
+}
+.mode span{
+    color:#172337;
+    text-transform: capitalize;
+}
+
+.coupon{
+   
+    width:760px;
+    height:450px;
+    background-color:#2874f0;
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 25%;
+    z-index: 100;
+    background-image: url('coupon1.png');
+}
+ 
+
+.button1{margin-left: 20px;
+    text-transform: capitalize;
+    border-radius: 0.7rem;
+    border-color:orange;
+}
+.button1 i{
+    color: orange;
+}
+
+
+
+.a_main1{
+    height: 280px;
+    margin-top: 8px;
+ 
+}
+.a_main2{display: flex;
+    flex-direction:row;
+    height:300px ;
+    box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.1);
+margin-top: 10px;
+border-top: 1px solid #ebebeb;
+}
+.a_main2 .square img:hover{
+    transform: scale(1.2);  
+    cursor: pointer;
+}
+
+.a_main9{ padding-top:70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 1782px;
+    margin-top: 10px;
+    color: rgb(171, 156, 156);
+    border-top: 1px solid black;
+}
+
+h1{color:grey;
+    margin-bottom: 10px;
+    font-family: Roboto,Arial,sans-serif;
+    letter-spacing: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+h2{color:grey;
+    margin-bottom: 10px;
+    font-family: Roboto,Arial,sans-serif;
+    letter-spacing: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+footer{
+    background-color:  #172337;
+}
+
+
+
+.card-item{ width: 232px;
+    height: 200px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 25px;
+padding-top:10px;
+}
+.lines p{
+text-align: center;
+}
+
+
+.square{
+    height: 300px;
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.text-center text-lg-start{
+    color: #172337;
+    border: 20px;
+}
+.footer {
+    padding-top: 30px;
+}
+
+.footer a{
+    text-decoration: none;
+}
+/*
+.a_main2-slider{
+    display: flex;
+    align-items: center;
+    background: white;
+   
+}
+.a_main2-slider .sqaure img{
+    margin-left:10px;
+}
+.a_main2-slider .wrapper{
+    margin-left: 5rem;
+}
+*/
+
+ @media(max-width:991px)
+{
+    html{
+        font-size:10px;
+    }
+    section{
+        padding:3rem 2rem;
+    }
+    .coupon{
+   
+        width:740px;
+        height:420px;
+        margin-top: 4%;
+        margin-left: 0px;
+    }
+    .a_main9{ padding-top:70px;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 1400px;
+    }
+
+}
+
+@media(max-width:768px)
+{
+    .header_top .searchbar{
+        width:250px;
+    }
+
+    .loginbtn{
+        font-size:8px;
+    }
+   footer .row_footer{
+        margin-top:10px;
+    }
+   
+    .coupon{
+   
+        width:740px;
+        height:420px;
+        margin-top: 4%;
+        margin-left: 0px;
+    }
+    .a_main2{
+        height:300px ;
+        width:100%;
+    margin-top: 10px;
+    border-top: 1px solid #ebebeb;
+    }
+    .a_main2 .square img{
+        width: 100px;
+         height:100px;
+    }
+    .a_main9{ padding-top:70px;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 1400px;
+    }
+
+}
+
+@media(max-width:450px)
+{
+    html{
+        font-size: 50%;
+    } 
+    .icons-container{
+       padding-left:5.5rem;
+       padding-right:5.5rem;
+    }
+}
+
+
+
+/* search filter starts*/
